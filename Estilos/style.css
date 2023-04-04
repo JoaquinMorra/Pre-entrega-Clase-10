@@ -1,0 +1,191 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Menu de Navegacion */
+header{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    background-color: #9c7643;
+    position:relative
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header__logo{
+    width: 100px;
+}
+.lista__menu{
+    list-style-type: none;
+    display:flex;
+    align-items: center;
+    position: relative;
+    right: 30px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    margin-right: 350px;
+}
+.lista__inicio{
+    padding: 10px;
+    text-decoration: none;
+    font-weight:200;
+    font-style: oblique;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+.lista__especialidades{
+    padding: 10px;
+    text-decoration: none;
+    font-weight:200;
+    font-style: oblique;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+.lista__ganaderia{
+    padding: 10px;
+    text-decoration: none;
+    font-weight:200;
+    font-style: oblique;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+.lista__corderos{
+    padding: 10px;
+    text-decoration: none;
+    font-weight:200;
+    font-style: oblique;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+.lista__contacto{
+    padding: 10px;
+    text-decoration: none;
+    font-weight:200;
+    font-style: oblique;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+.form__usuario{
+    text-align: center;
+    background-color:rgba(212, 172, 126, 0.924);
+    border-radius: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    display: flex;
+    position: relative;
+    right: 300px;
+}
+.form__boton{
+    margin-left: 10px;
+    background-color: rgba(212, 172, 126, 0.924);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    position: relative;
+    right: 298px;
+}
+/* Seccion principal con Imagen de fondo */
+.section__titulo{
+    display: flex;
+    background-image:url(../img/campo\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 425px;
+    flex-wrap: wrap;
+}
+.div__titulo{
+    font-size: 68px;
+    font-weight: 500;
+    font-style: italic;
+    color: #080500;
+    position: absolute;
+    top: 230px;
+    left: 50px;
+}
+.div__subtitulo{
+    font-size: 34px;
+    font-weight: 300;
+    color: #080500;
+    position: absolute;
+    top: 300px;
+    left: 50px;
+}
+/* Seccion Productos destacados */
+.productosdestacados{
+    text-align: center;
+    font-size: 15px;
+}
+.gridcontainer__productos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    align-items: center;
+}
+.griditem__destacados{
+    text-align: center;
+}
+.griditem__destacados img{
+    max-width: 100%;
+    height: auto;
+}
+.griditem__destacados h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.griditem__destacados p{
+    margin: 0;
+    font-size: 14px;
+}
+.griditem__destacados button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+/* footer */
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10x 10px;
+    background-color: #9c7643;
+}
+
+.imgFooter{
+    width: 100px;
+}
+
+.iconos__instagram{
+    margin-right: 40px;
+
+}
+.iconos__twitter{
+    margin-right: 40px ;
+}
+
+.iconos__facebook{
+    margin-right: 40px;
+}
+
+.instagram{
+    font-size: 45px;
+}
+
+.facebook{
+    font-size: 45px;
+
+}
+.twitter{
+    font-size: 45px;
+}
