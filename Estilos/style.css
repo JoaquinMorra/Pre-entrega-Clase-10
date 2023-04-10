@@ -38,7 +38,7 @@ nav{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
 }
-.lista__especialidades{
+.lista__sobrenosotros{
     padding: 10px;
     text-decoration: none;
     font-weight:200;
@@ -47,16 +47,7 @@ nav{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
 }
-.lista__ganaderia{
-    padding: 10px;
-    text-decoration: none;
-    font-weight:200;
-    font-style: oblique;
-    font-size: 18px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: black;
-}
-.lista__corderos{
+.lista__productosyservicios{
     padding: 10px;
     text-decoration: none;
     font-weight:200;
@@ -188,4 +179,38 @@ nav{
 }
 .twitter{
     font-size: 45px;
+}
+
+/* Pagina Sobre Nosotros */
+
+/* Seccion Main */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.columna__1 {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.columna__2 {
+    background-color: #f1f1f1;
+    padding: 20px;
+} 
+.columna__1 h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+} 
+.columna__1 p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.columna__2 img {
+    max-width: 100%;
+    height: auto;
 }
