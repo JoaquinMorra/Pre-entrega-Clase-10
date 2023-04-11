@@ -151,6 +151,7 @@ nav{
     align-items: center;
     padding: 10x 10px;
     background-color: #9c7643;
+    justify-content: space-around;
 }
 
 .imgFooter{
