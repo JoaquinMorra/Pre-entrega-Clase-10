@@ -5,6 +5,44 @@
 /* Menu de Navegacion */
 header{
     display: flex;
+    justify-content: space-between;
+    background-color: beige;
+    align-items: center;
+}
+.header__logo{
+    display: flex;
+    align-items: center;
+}
+.header__logo img{
+    height: 100px;
+}
+.header__menu{
+    display: flex;
+
+}
+.header__menu a{
+    text-decoration: none;
+    color: black;
+}
+.header__menu li{
+    list-style-type: none;
+    padding-right: 10px;
+    font-weight: 600;
+}
+.lista__nav:hover{
+    color: #8a8a8a;
+}
+
+
+
+
+
+
+
+
+
+/* header{
+    display: flex;
     justify-content: flex-end;
     justify-content: space-between;
     background-color: #9c7643;
@@ -83,10 +121,10 @@ nav{
     padding: 5px;
     display: flex;
     position: relative;
-    right: 298px;
+    right: 298px; */
 }
 /* Seccion principal con Imagen de fondo */
-.section__titulo{
+/* .section__titulo{
     display: flex;
     background-image:url(../img/campo\ 2.png);
     background-repeat: no-repeat;
@@ -112,7 +150,7 @@ nav{
     left: 50px;
 }
 /* Seccion Productos destacados */
-.productosdestacados{
+/* .productosdestacados{
     text-align: center;
     font-size: 15px;
 }
@@ -142,7 +180,7 @@ nav{
     margin-bottom: 10px;
     border: none;
     border-radius: 5px;
-}
+} */
 /* footer */
 
 .footer{
@@ -214,4 +252,4 @@ nav{
 .columna__2 img {
     max-width: 100%;
     height: auto;
-}
+} */
