@@ -40,7 +40,7 @@ nav{
     padding-right: 15px;
 }
 /* Seccion principal con Imagen de fondo */
- .section__titulo{
+.section__titulo{
     display: flex;
     background-image:url(../img/campo\ 2.png);
     background-repeat: no-repeat;
@@ -168,4 +168,37 @@ nav{
 .columna__2 img {
     max-width: 100%;
     height: auto;
-} */
+} 
+
+@media screen and (max-width: 480px){
+    header{
+        flex-wrap: wrap;
+    }
+    .section__titulo {
+        display: flex;
+        background-image: url(../img/campo\ 2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 80px 20px; 
+        flex-wrap: wrap;
+        }
+        
+        .div__titulo {
+        font-size: 48px; 
+        font-weight: 500;
+        font-style: italic;
+        color: #080500;
+        position: static; 
+        margin: 0; 
+        text-align: center;
+        }
+        
+        .div__subtitulo {
+        font-size: 24px; 
+        font-weight: 300;
+        color: #080500;
+        position: static; 
+        margin: 0; 
+        text-align: center;
+        }
+    }
