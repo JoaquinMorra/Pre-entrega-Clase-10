@@ -13,6 +13,10 @@ header{
     display: flex;
     align-items: center;
 }
+.header__logo h2{
+    font-family: fantasy;
+    padding-left: 20px;
+}
 .header__logo img{
     height: 100px;
 }
@@ -32,8 +36,11 @@ header{
 .lista__nav:hover{
     color: #8a8a8a;
 }
+nav{
+    padding-right: 15px;
+}
 /* Seccion principal con Imagen de fondo */
-/* .section__titulo{
+ .section__titulo{
     display: flex;
     background-image:url(../img/campo\ 2.png);
     background-repeat: no-repeat;
@@ -59,7 +66,7 @@ header{
     left: 50px;
 }
 /* Seccion Productos destacados */
-/* .productosdestacados{
+.productosdestacados{
     text-align: center;
     font-size: 15px;
 }
@@ -89,7 +96,7 @@ header{
     margin-bottom: 10px;
     border: none;
     border-radius: 5px;
-} */
+}
 /* footer */
 
 .footer{
@@ -97,7 +104,7 @@ header{
     justify-content: flex-end;
     align-items: center;
     padding: 10x 10px;
-    background-color: #9c7643;
+    background-color: beige;
     justify-content: space-around;
 }
 
