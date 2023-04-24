@@ -1,10 +1,127 @@
-.grid-container h3 {
-  color: rgb(0, 255, 255);
-}
-
 * {
   padding: 0px;
   margin: 0px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: beige;
+  align-items: center;
+}
+header .header__logo {
+  display: flex;
+  align-items: center;
+}
+header .header__logo h2 {
+  font-family: fantasy;
+  padding-left: 20px;
+}
+header .header__logo img {
+  height: 100px;
+}
+
+nav {
+  padding-right: 15px;
+}
+nav .header__menu {
+  display: flex;
+}
+nav .header__menu a {
+  text-decoration: none;
+  color: black;
+}
+nav .header__menu li {
+  list-style-type: none;
+  padding-right: 10px;
+  font-weight: 600;
+}
+nav .header__menu .lista__nav:hover {
+  color: #8a8a8a;
+}
+
+main .section__titulo {
+  display: flex;
+  background-image: url(../img/campo\ 2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 425px;
+  flex-wrap: wrap;
+}
+main .section__titulo .div__titulo {
+  font-size: 68px;
+  font-weight: 500;
+  font-style: italic;
+  color: #080500;
+  position: absolute;
+  top: 230px;
+  left: 50px;
+}
+main .section__titulo .div__subtitulo {
+  font-size: 34px;
+  font-weight: 300;
+  color: #080500;
+  position: absolute;
+  top: 300px;
+  left: 50px;
+}
+
+.productosdestacados {
+  text-align: center;
+  font-size: 15px;
+}
+.productosdestacados .gridcontainer__productos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  align-items: center;
+}
+.productosdestacados .gridcontainer__productos .griditem__destacados {
+  text-align: center;
+}
+.productosdestacados .gridcontainer__productos .griditem__destacados img {
+  max-width: 100%;
+  height: auto;
+}
+.productosdestacados .gridcontainer__productos .griditem__destacados h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.productosdestacados .gridcontainer__productos .griditem__destacados p {
+  margin: 0;
+  font-size: 14px;
+}
+.productosdestacados .gridcontainer__productos .griditem__destacados button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 10px;
+  background-color: beige;
+}
+.footer .iconos__instagram {
+  margin-right: 40px;
+}
+.footer .iconos__twitter {
+  margin-right: 40px;
+}
+.footer .iconos__facebook {
+  margin-right: 40px;
+}
+.footer .instagram {
+  font-size: 45px;
+}
+.footer .twitter {
+  font-size: 45px;
+}
+.footer .facebook {
+  font-size: 45px;
 }
 
 /*# sourceMappingURL=style.css.map */
