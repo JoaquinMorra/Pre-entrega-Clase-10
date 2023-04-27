@@ -16,6 +16,7 @@ header .header__logo {
 header .header__logo h2 {
   font-family: fantasy;
   padding-left: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 header .header__logo img {
   height: 100px;
@@ -56,6 +57,8 @@ main .section__titulo .div__titulo {
   position: absolute;
   top: 230px;
   left: 50px;
+  font-family: fantasy;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 main .section__titulo .div__subtitulo {
   font-size: 34px;
@@ -69,6 +72,7 @@ main .section__titulo .div__subtitulo {
 .productosdestacados {
   text-align: center;
   font-size: 15px;
+  font-style: italic;
 }
 .productosdestacados .gridcontainer__productos {
   display: grid;
@@ -122,6 +126,68 @@ main .section__titulo .div__subtitulo {
 }
 .footer .facebook {
   font-size: 45px;
+}
+
+main .grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+main .grid-container .columna__1 {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+main .grid-container .columna__1 h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+main .grid-container .columna__1 p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+main .grid-container .columna__2 {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+main .grid-container .columna__2 img {
+  max-width: 100%;
+  height: auto;
+}
+
+section .titulo__container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+section .titulo__dedicamos {
+  font-family: fantasy;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+section .carousel-caption h5 {
+  font-size: 30px;
+  font-weight: 600;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+section .carousel-caption p {
+  font-size: 20px;
+  font-weight: 400;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  width: 100%;
+}
+.grid-container .item {
+  background-color: #fff;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

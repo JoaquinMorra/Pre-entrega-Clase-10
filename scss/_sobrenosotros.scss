@@ -1,0 +1,53 @@
+main{
+    .grid-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        .columna__1{
+            background-color: #f9f9f9;
+            padding: 20px;
+            h3{
+                font-size: 24px;
+                margin-bottom: 10px;
+                text-align: center;
+            }
+            p{
+                font-size: 16px;
+                line-height: 1.5;
+                text-align: center;
+            }
+        }
+        .columna__2{
+            background-color: #f1f1f1;
+            padding: 20px;
+            img{
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    }
+}
+section{
+    .titulo__container{
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+    }
+    .titulo__dedicamos{
+        font-family: fantasy;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);        
+    }
+    .carousel-caption{
+        h5{
+            font-size: 30px;
+            font-weight: 600;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        p{
+            font-size: 20px;
+            font-weight: 400;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+    }
+    
+}

@@ -10,6 +10,7 @@ header{
         h2{
             font-family: fantasy;
             padding-left: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
         img{
             height: 100px;
@@ -54,6 +55,8 @@ main{
             position: absolute;
             top: 230px;
             left: 50px;
+            font-family: fantasy;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
         }
         .div__subtitulo{
             font-size: 34px;
@@ -69,6 +72,7 @@ main{
 .productosdestacados{
     text-align: center;
     font-size: 15px;
+    font-style: italic;
     .gridcontainer__productos{
         display: grid;
         grid-template-columns: repeat(4,1fr);
