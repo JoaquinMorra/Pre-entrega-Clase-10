@@ -183,6 +183,9 @@ section .carousel-caption p {
   margin-top: 10px;
 }
 
+main {
+  margin-bottom: 20pxgit;
+}
 main .card__container-prod {
   display: flex;
   justify-content: space-between;
@@ -191,6 +194,7 @@ main .card__container-prod {
 }
 main .card__container-prod .card {
   width: 30%;
+  height: 253px;
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   overflow: hidden;
