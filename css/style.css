@@ -82,6 +82,14 @@ main .section__titulo .div__subtitulo {
 }
 .productosdestacados .gridcontainer__productos .griditem__destacados {
   text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+  height: 282px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
 }
 .productosdestacados .gridcontainer__productos .griditem__destacados img {
   max-width: 100%;
@@ -89,7 +97,7 @@ main .section__titulo .div__subtitulo {
 }
 .productosdestacados .gridcontainer__productos .griditem__destacados h3 {
   margin-top: 10px;
-  margin-bottom: 10px;
+  font-size: larger;
 }
 .productosdestacados .gridcontainer__productos .griditem__destacados p {
   margin: 0;
@@ -100,6 +108,9 @@ main .section__titulo .div__subtitulo {
   margin-bottom: 10px;
   border: none;
   border-radius: 5px;
+}
+.productosdestacados .gridcontainer__productos .griditem__destacados:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
 }
 
 .footer {
@@ -236,6 +247,7 @@ main .card__container-form {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin-top: 30px;
   margin-bottom: 30px;
+  background-color: #d8cdbc;
 }
 main .card__container-form .card__header {
   width: 100%;
@@ -245,6 +257,8 @@ main .card__container-form .card__header {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: center;
+  padding: 15px;
+  background-color: #a8865a;
 }
 main .card__container-form .card__header h3 {
   margin: 0;
@@ -258,7 +272,8 @@ main .card__container-form .card__body .form__group {
   margin-bottom: 20px;
 }
 main .card__container-form .card__body .form__group label {
-  display: block;
+  display: flex;
+  justify-content: center;
   margin-bottom: 5px;
   font-weight: bold;
 }
@@ -280,8 +295,20 @@ main .card__container-form .card__body .form__group button[type=submit] {
   font-weight: bold;
   cursor: pointer;
 }
-main .card__container-form .card__body .form__group button[type=submit]:hover {
-  background-color: #006b8b;
+main .card__container-form .motivo {
+  display: flex;
+  justify-content: space-evenly;
+}
+main .card__container-form .enviar__form {
+  display: flex;
+  justify-content: center;
+}
+main .card__container-form .enviar__form button {
+  width: 200px;
+  margin-top: 15px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  border: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */

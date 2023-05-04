@@ -80,13 +80,21 @@ main{
         align-items: center;
         .griditem__destacados{
             text-align: center;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease-in-out;
+            height: 282px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: nowrap;
+            flex-direction: column;
             img{
                 max-width: 100%;
                 height: auto;
             }
             h3{
                 margin-top: 10px;
-                margin-bottom: 10px;
+                font-size: larger;
             }
             p{
                 margin: 0;
@@ -98,6 +106,9 @@ main{
                 border: none;
                 border-radius: 5px;
             }
+            &:hover {
+                box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+                }
         }
 
     }
