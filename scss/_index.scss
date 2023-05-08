@@ -38,14 +38,24 @@ nav{
         }
     }
 }
+// Menu Hamburguesa.
+header{
+    .label__menu{
+        display: none;
+    }
+    .ham__menu{
+        display: none;
+    }
+}
+
 // Ahora arrancamos con la seccion principal y su imagen de fondo
 main{
     .section__titulo{
         display: flex;
         background-image: url(../img/campo\ 2.png);
         background-repeat: no-repeat;
-        background-size: cover;
-        padding: 425px;
+        background-size: 100% auto;
+        height: 700px;
         flex-wrap: wrap;
         .div__titulo{
             font-size: 68px;
@@ -57,6 +67,7 @@ main{
             left: 50px;
             font-family: fantasy;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
+            
         }
         .div__subtitulo{
             font-size: 34px;
@@ -73,11 +84,21 @@ main{
     text-align: center;
     font-size: 15px;
     font-style: italic;
+    background-color: #cecab8;
+    height: 400px;
+    .prod__titulo{
+        font-size: 2.8rem;
+        font-family: fantasy;
+        display: flex;
+        justify-content: center;
+        padding-top: 15px;
+    }
     .gridcontainer__productos{
         display: grid;
         grid-template-columns: repeat(4,1fr);
         grid-gap: 20px;
         align-items: center;
+        margin: 15px;
         .griditem__destacados{
             text-align: center;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -90,7 +111,7 @@ main{
             flex-direction: column;
             img{
                 max-width: 100%;
-                height: auto;
+                height: 154px;
             }
             h3{
                 margin-top: 10px;
@@ -99,12 +120,17 @@ main{
             p{
                 margin: 0;
                 font-size: 14px;
+                
             }
             button{
                 margin-top: 10px;
                 margin-bottom: 10px;
                 border: none;
                 border-radius: 5px;
+                padding: 5px;
+                background-color: #a1a09c;
+                box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2)
+                
             }
             &:hover {
                 box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);

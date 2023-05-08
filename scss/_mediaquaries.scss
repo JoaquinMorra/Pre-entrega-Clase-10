@@ -1,0 +1,32 @@
+// Media Quaries para Index.html
+@media screen and (max-width: 390px){
+    header{
+        .label__menu{
+            display: block;
+        }
+        nav{
+            transform: translateX(-576px);
+            transition: 1s;
+            position: absolute;
+            background-color: beige;
+            justify-content: flex-start;
+            left: 0;
+            top: 120px;
+            width: 100%;
+            height: 100vh;
+            padding: 20px;
+        }
+        .ham__menu:checked + nav{
+            transform: translateX(0);
+        }
+    }
+    main{
+        .section__titulo{
+            background-size: cover;
+            height: 500px;
+            .div__titulo{
+                font-size: 38px;
+            }
+        }
+    }
+}
