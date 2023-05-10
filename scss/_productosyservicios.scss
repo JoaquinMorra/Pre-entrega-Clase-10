@@ -6,19 +6,20 @@
 }
 
 main{
-    margin-bottom: 20pxgit;
+    margin-bottom: 20px;
     .card__container-prod{
         display: flex;
         justify-content: space-between;
         margin-left: 15px;
         margin-right: 15px;
         .card{
-            width: 30%;
+            width: 100%;
             height: 253px;
             background-color: #fff;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             overflow: hidden;
             position: relative;
+            margin: 10px;
             img{
                 width: 100%;
                 height: 100%;

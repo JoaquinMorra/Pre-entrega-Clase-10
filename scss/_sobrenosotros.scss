@@ -4,7 +4,6 @@ main{
         grid-template-columns: 1fr 1fr;
         gap: 20px;
         .columna__1{
-            background-color: #f9f9f9;
             padding: 20px;
             h3{
                 font-size: 24px;
@@ -18,11 +17,10 @@ main{
             }
         }
         .columna__2{
-            background-color: #f1f1f1;
             padding: 20px;
             img{
                 max-width: 100%;
-                height: auto;
+                height: 100%;
             }
         }
     }
@@ -48,6 +46,9 @@ section{
             font-weight: 400;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
+    }
+    .carousel{
+        padding: 20px;
     }
     
 }

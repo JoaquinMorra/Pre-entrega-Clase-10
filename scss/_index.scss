@@ -20,6 +20,7 @@ header{
 
 nav{
     padding-right: 15px;
+    z-index: 2;
     .header__menu{
         display: flex;
         a{
@@ -57,6 +58,7 @@ main{
         background-size: 100% auto;
         height: 700px;
         flex-wrap: wrap;
+        z-index: 1;
         .div__titulo{
             font-size: 68px;
             font-weight: 500;
@@ -76,6 +78,7 @@ main{
             position: absolute;
             top: 300px;
             left: 50px;
+            height: fit-content;
         }
     }
 }

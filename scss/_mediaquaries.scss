@@ -1,8 +1,17 @@
 // Media Quaries para Index.html
+// Aca le agregamos al Nav el menu de hamburguesa con sus respectivos estilos
 @media screen and (max-width: 390px){
     header{
+        .header__logo{
+            .logo__nombre{
+                padding-left: 5px;
+            }
+        }
         .label__menu{
             display: block;
+            font-size: 25px;
+            margin-bottom: 10px;
+            margin-right: 10px;
         }
         nav{
             transform: translateX(-576px);
@@ -13,20 +22,73 @@
             left: 0;
             top: 120px;
             width: 100%;
-            height: 100vh;
+            height: 100%;
             padding: 20px;
+            .header__menu{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: 300px;
+                justify-content: space-around;
+            }
         }
         .ham__menu:checked + nav{
             transform: translateX(0);
         }
     }
+    // Modificamos la seccion principal del titulo y su imagen de fondo
     main{
         .section__titulo{
             background-size: cover;
             height: 500px;
             .div__titulo{
-                font-size: 38px;
+                display: none;
+            }
+            .div__subtitulo{
+                font-family: Actor;
+                font-size: 20px;
+                font-weight: 600;
+                position: absolute;
+                top: 450px;
+                left: 15px;
+            }
+        }
+        // Modificamos el grid de la seccion productos destacados.
+        .productosdestacados{
+            height: 700px;
+            .prod__titulo{
+                font-size: 2rem;
+            }
+            .gridcontainer__productos{
+                grid-template-columns: repeat(2,2fr);
             }
         }
     }
 }
+
+// Ahora continuamos con la pagina "sobre nosotros"
+@media screen and (max-width: 390px){
+    main{
+        .grid-container{
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            gap: 0px;
+            .columna__2{
+                order: -1;
+            }
+        }
+    }
+}
+
+// Ahora continuamos con la pagina "productos y servicios"
+@media screen and (max-width: 390px){
+    .card__container-prod{
+        flex-direction: column;
+        align-items: center;
+        .card{
+            margin-bottom: 10px;
+        }
+    }
+}
+
+// Ahora continuamos con la pagina "contactos"
