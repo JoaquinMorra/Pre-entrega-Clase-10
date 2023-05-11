@@ -51,6 +51,8 @@
                 position: absolute;
                 top: 450px;
                 left: 15px;
+                color: #fff;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
             }
         }
         // Modificamos el grid de la seccion productos destacados.
@@ -82,13 +84,50 @@
 
 // Ahora continuamos con la pagina "productos y servicios"
 @media screen and (max-width: 390px){
-    .card__container-prod{
-        flex-direction: column;
-        align-items: center;
-        .card{
-            margin-bottom: 10px;
+    .main__prod{
+        .card__container-prod{
+            flex-direction: column;
+            align-items: center;
+            margin-left: 0px;
+            margin-right: 0px;
+            .card{
+                width: 90%;
+                margin: 0px;
+                margin-bottom: 13px;
+            }
         }
     }
 }
 
-// Ahora continuamos con la pagina "contactos"
+// Ahora continuamos con la pagina (contactos)
+@media screen and (max-width: 390px){
+    
+    .main__contacto{
+        height: 650px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .card__container-form{
+            width: 320px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            .card__body{
+                .motivo{
+                    display: block;
+                    .titulo__motivo{
+                        display: flex;
+                        justify-content: center;
+                    }
+                    .div__form-container{
+                        display: flex;
+                        font-size: 12px;
+                        gap: 3px;
+                        justify-content: center;
+                        margin-top: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+

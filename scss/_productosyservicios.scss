@@ -5,7 +5,7 @@
     margin-top: 10px;
 }
 
-main{
+.main__prod{
     margin-bottom: 20px;
     .card__container-prod{
         display: flex;
@@ -47,6 +47,10 @@ main{
                 transition: opacity 0.3s ease-in-out;
                 opacity: 0;
                 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
+            }
+            a{
+                text-decoration: none;
+                color: white;
             }
         }
     }
