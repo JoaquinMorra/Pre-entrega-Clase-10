@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Actor&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Actor&family=Cinzel&display=swap");
 * {
   padding: 0px;
   margin: 0px;
@@ -15,7 +16,7 @@ header .header__logo {
   align-items: center;
 }
 header .header__logo h2 {
-  font-family: fantasy;
+  font-family: Cinzel;
   padding-left: 20px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
@@ -67,7 +68,7 @@ main .section__titulo .div__titulo {
   position: absolute;
   top: 230px;
   left: 50px;
-  font-family: fantasy;
+  font-family: Cinzel;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 main .section__titulo .div__subtitulo {
@@ -89,7 +90,7 @@ main .section__titulo .div__subtitulo {
 }
 .productosdestacados .prod__titulo {
   font-size: 2.8rem;
-  font-family: fantasy;
+  font-family: Cinzel;
   display: flex;
   justify-content: center;
   padding-top: 15px;
@@ -129,6 +130,7 @@ main .section__titulo .div__subtitulo {
   color: #080500;
 }
 .productosdestacados .gridcontainer__productos .griditem__destacados button {
+  color: black;
   margin-top: 10px;
   margin-bottom: 10px;
   border: none;
@@ -199,7 +201,7 @@ section .titulo__container {
   padding: 20px;
 }
 section .titulo__dedicamos {
-  font-family: fantasy;
+  font-family: Cinzel;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 section .carousel-caption h5 {
@@ -219,7 +221,7 @@ section .carousel {
 .titulo__ganaderia {
   display: flex;
   justify-content: space-around;
-  font-family: fantasy;
+  font-family: Cinzel;
   margin-top: 10px;
 }
 
@@ -343,17 +345,15 @@ main .card__container-form .enviar__form button {
   border-radius: 20px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   border: 5px;
+  background-color: #e2d5c4;
 }
 
 @media screen and (max-width: 390px) {
-  header .header__logo .logo__nombre {
-    padding-left: 5px;
-  }
   header .label__menu {
     display: block;
     font-size: 25px;
     margin-bottom: 10px;
-    margin-right: 10px;
+    margin-right: 20px;
   }
   header nav {
     transform: translateX(-576px);
