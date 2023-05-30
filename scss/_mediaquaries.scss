@@ -1,6 +1,6 @@
 // Media Quaries para Index.html
 // Aca le agregamos al Nav el menu de hamburguesa con sus respectivos estilos
-@media screen and (max-width: 390px){
+@media screen and (max-width: 480px){
     header{
         .label__menu{
             display: block;
@@ -64,7 +64,7 @@
 }
 
 // Ahora continuamos con la pagina "sobre nosotros"
-@media screen and (max-width: 390px){
+@media screen and (max-width: 480px){
     main{
         .grid-container{
             grid-template-columns: 1fr;
@@ -78,7 +78,7 @@
 }
 
 // Ahora continuamos con la pagina "productos y servicios"
-@media screen and (max-width: 390px){
+@media screen and (max-width: 480px){
     .main__prod{
         .card__container-prod{
             flex-direction: column;
@@ -95,7 +95,7 @@
 }
 
 // Ahora continuamos con la pagina (contactos)
-@media screen and (max-width: 390px){
+@media screen and (max-width: 480px){
     
     .main__contacto{
         height: 650px;

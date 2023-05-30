@@ -282,7 +282,7 @@ main .card__container-form {
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin-top: 30px;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
   background-color: #d8cdbc;
 }
 main .card__container-form .card__header {
@@ -296,7 +296,7 @@ main .card__container-form .card__header {
   padding: 15px;
   background-color: #a8865a;
 }
-main .card__container-form .card__header h3 {
+main .card__container-form .card__header h1 {
   margin: 0;
   font-size: 24px;
   font-weight: bold;
@@ -348,7 +348,17 @@ main .card__container-form .enviar__form button {
   background-color: #e2d5c4;
 }
 
-@media screen and (max-width: 390px) {
+.section__mapa .contenedor__mapa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.section__mapa .contenedor__mapa h2 {
+  font-family: Cinzel;
+}
+
+@media screen and (max-width: 480px) {
   header .label__menu {
     display: block;
     font-size: 25px;
@@ -404,7 +414,7 @@ main .card__container-form .enviar__form button {
     grid-template-columns: repeat(2, 2fr);
   }
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 480px) {
   main .grid-container {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -414,7 +424,7 @@ main .card__container-form .enviar__form button {
     order: -1;
   }
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 480px) {
   .main__prod .card__container-prod {
     flex-direction: column;
     align-items: center;
@@ -427,7 +437,7 @@ main .card__container-form .enviar__form button {
     margin-bottom: 13px;
   }
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 480px) {
   .main__contacto {
     height: 650px;
     display: flex;
