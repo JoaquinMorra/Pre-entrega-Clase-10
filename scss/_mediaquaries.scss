@@ -96,7 +96,6 @@
 
 // Ahora continuamos con la pagina (contactos)
 @media screen and (max-width: 480px){
-    
     .main__contacto{
         height: 650px;
         display: flex;
@@ -124,5 +123,18 @@
             }
         }
     }
+    .contenedor__img{
+        width: 100%;
+        height: 300px;
+        overflow-x: hidden;
+        padding-left: 10px;
+        padding-right: 10px;
+        iframe{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    
 }
+
 
